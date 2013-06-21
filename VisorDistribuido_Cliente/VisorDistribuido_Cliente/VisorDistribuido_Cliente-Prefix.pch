@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'VisorDistribuido_Cliente' target in the 'VisorDistribuido_Cliente' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
