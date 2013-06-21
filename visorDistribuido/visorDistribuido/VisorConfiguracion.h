@@ -8,6 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-@interface VisorConfiguracion : NSObject
+@interface VisorConfiguracion : NSObject {
+    int filas;
+    int columnas;
+    
+    NSSize tamanoRectangulo;
+    NSImage *imagen;
+    
+    NSPoint puntoOrigen;
+}
+
+@property int filas;
+@property int columnas;
+
+@property NSSize tamanoRectangulo;
+@property NSImage *imagen;
+
+@property NSPoint puntoOrigen;
 
 @end

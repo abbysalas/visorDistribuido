@@ -10,4 +10,10 @@
 
 @implementation VisorConfiguracion
 
+@synthesize filas;
+@synthesize columnas;
+@synthesize tamanoRectangulo;
+@synthesize imagen;
+@synthesize puntoOrigen;
+
 @end
