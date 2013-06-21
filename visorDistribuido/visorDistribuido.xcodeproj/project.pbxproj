@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D35CF9BF1774EC4800614FBA /* VisorConfiguracion.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */; };
+		D35CF9C71774F01400614FBA /* PantallaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CF9C61774F01300614FBA /* PantallaView.m */; };
+		D35CF9CA1774F19B00614FBA /* nasa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D35CF9C91774F19B00614FBA /* nasa.jpg */; };
 		D361FC831774E50D001A8E72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361FC821774E50D001A8E72 /* Cocoa.framework */; };
 		D361FC8D1774E50D001A8E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D361FC8B1774E50D001A8E72 /* InfoPlist.strings */; };
 		D361FC8F1774E50D001A8E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D361FC8E1774E50D001A8E72 /* main.m */; };
@@ -19,6 +21,9 @@
 /* Begin PBXFileReference section */
 		D35CF9BD1774EC4800614FBA /* VisorConfiguracion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisorConfiguracion.h; sourceTree = "<group>"; };
 		D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisorConfiguracion.m; sourceTree = "<group>"; };
+		D35CF9C51774F01300614FBA /* PantallaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PantallaView.h; sourceTree = "<group>"; };
+		D35CF9C61774F01300614FBA /* PantallaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PantallaView.m; sourceTree = "<group>"; };
+		D35CF9C91774F19B00614FBA /* nasa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nasa.jpg; sourceTree = "<group>"; };
 		D361FC7E1774E50D001A8E72 /* visorDistribuido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visorDistribuido.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D361FC821774E50D001A8E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D361FC851774E50D001A8E72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -46,9 +51,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D35CF9C81774F16600614FBA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D35CF9C91774F19B00614FBA /* nasa.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
 		D361FC731774E50D001A8E72 = {
 			isa = PBXGroup;
 			children = (
+				D35CF9C81774F16600614FBA /* img */,
 				D361FC881774E50D001A8E72 /* visorDistribuido */,
 				D361FC811774E50D001A8E72 /* Frameworks */,
 				D361FC7F1774E50D001A8E72 /* Products */,
@@ -91,6 +105,8 @@
 				D361FC891774E50D001A8E72 /* Supporting Files */,
 				D35CF9BD1774EC4800614FBA /* VisorConfiguracion.h */,
 				D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */,
+				D35CF9C51774F01300614FBA /* PantallaView.h */,
+				D35CF9C61774F01300614FBA /* PantallaView.m */,
 			);
 			path = visorDistribuido;
 			sourceTree = "<group>";
@@ -161,6 +177,7 @@
 				D361FC8D1774E50D001A8E72 /* InfoPlist.strings in Resources */,
 				D361FC931774E50D001A8E72 /* Credits.rtf in Resources */,
 				D361FC991774E50E001A8E72 /* MainMenu.xib in Resources */,
+				D35CF9CA1774F19B00614FBA /* nasa.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +191,7 @@
 				D361FC8F1774E50D001A8E72 /* main.m in Sources */,
 				D361FC961774E50D001A8E72 /* AppDelegate.m in Sources */,
 				D35CF9BF1774EC4800614FBA /* VisorConfiguracion.m in Sources */,
+				D35CF9C71774F01400614FBA /* PantallaView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface VisorConfiguracion : NSObject {
-    int filas;
-    int columnas;
     
     NSSize tamanoRectangulo;
     NSImage *imagen;
