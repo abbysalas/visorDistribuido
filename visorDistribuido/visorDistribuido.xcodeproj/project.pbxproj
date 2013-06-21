@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D35CF9BF1774EC4800614FBA /* VisorConfiguracion.m in Sources */ = {isa = PBXBuildFile; fileRef = D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */; };
 		D361FC831774E50D001A8E72 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D361FC821774E50D001A8E72 /* Cocoa.framework */; };
 		D361FC8D1774E50D001A8E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D361FC8B1774E50D001A8E72 /* InfoPlist.strings */; };
 		D361FC8F1774E50D001A8E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D361FC8E1774E50D001A8E72 /* main.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D35CF9BD1774EC4800614FBA /* VisorConfiguracion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VisorConfiguracion.h; path = visorDistribuido/VisorConfiguracion.h; sourceTree = "<group>"; };
+		D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VisorConfiguracion.m; path = visorDistribuido/VisorConfiguracion.m; sourceTree = "<group>"; };
 		D361FC7E1774E50D001A8E72 /* visorDistribuido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visorDistribuido.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D361FC821774E50D001A8E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D361FC851774E50D001A8E72 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -46,6 +49,8 @@
 		D361FC731774E50D001A8E72 = {
 			isa = PBXGroup;
 			children = (
+				D35CF9BD1774EC4800614FBA /* VisorConfiguracion.h */,
+				D35CF9BE1774EC4800614FBA /* VisorConfiguracion.m */,
 				D361FC881774E50D001A8E72 /* visorDistribuido */,
 				D361FC811774E50D001A8E72 /* Frameworks */,
 				D361FC7F1774E50D001A8E72 /* Products */,
@@ -168,6 +173,7 @@
 			files = (
 				D361FC8F1774E50D001A8E72 /* main.m in Sources */,
 				D361FC961774E50D001A8E72 /* AppDelegate.m in Sources */,
+				D35CF9BF1774EC4800614FBA /* VisorConfiguracion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +303,7 @@
 				D361FC9E1774E50E001A8E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
