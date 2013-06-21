@@ -38,6 +38,8 @@
     [imagen setFrameSize:visorConfiguracion.imagen.size];
     
     [imagen setImage: visorConfiguracion.imagen];
+    
+    [self setNeedsDisplay:YES];
 }
 
 //se utiliza cuando cambio la posicion
