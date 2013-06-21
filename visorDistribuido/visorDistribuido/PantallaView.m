@@ -15,6 +15,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code here.
+        
+        imagen = [[NSImageView alloc] initWithFrame:NSMakeRect(0, 0, frame.size.width, frame.size.height)];
+        
+        [imagen setImageAlignment: NSImageAlignBottomLeft];
+        [imagen setImageScaling: NSImageScaleNone];
+        
+        [self addSubview: imagen];
     }
     
     return self;
@@ -28,7 +35,9 @@
 //se utiliza cuando cambio la imagen
 -(void) despliegaImagen
 {
+    [imagen setFrameSize:visorConfiguracion.imagen.size];
     
+    [imagen setImage: visorConfiguracion.imagen];
 }
 
 //se utiliza cuando cambio la posicion
